@@ -1,0 +1,28 @@
+1.install erl
+2.install rabbitMQ Windows
+
+3 rabbitmq-plugins.bat enable rabbitmq_management
+4.管理
+1. 用户管理
+
+(1) 新增一个用户
+
+rabbitmqctl  add_user  Username  Password
+
+(2) 删除一个用户
+
+rabbitmqctl  delete_user  Username
+
+(3) 修改用户的密码
+
+rabbitmqctl  change_password  Username  Newpassword
+
+(4) 查看当前用户列表
+
+rabbitmqctl  list_users
+
+
+rabbitmqctl.bat add_user admin PASSWORD
+rabbitmqctl.bat set_user_tags admin administrator
+rabbitmqctl.bat set_permissions -p / admin ".*" ".*" ".*"
+
