@@ -1,4 +1,4 @@
-MyAuthWS
+MyRabbitMQ
 -----
 This is a C# Sample to use RabbitMQ<br>
 
