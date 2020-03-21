@@ -1,11 +1,10 @@
 MyAuthWS
 -----
-This is a C# Webservice Sample with SOAP Header Authentication<br>
-https://dotblogs.com.tw/michaelfang/2018/12/11/webservice-soap-header
+This is a C# Sample to use RabbitMQ<br>
 
 ```
-MyWebService    (webservice with soap header authentication)
-MyAuthWS.Tests  (unit test)
+MyRabbitMQProducer
+MyRabbitMQConsumer
 ```
 Installation
 ------------
